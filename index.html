@@ -20,14 +20,106 @@
 		</style>
 	</head>
 	<body data-gr-c-s-loaded="true">
-		<h1>Samples from voice conversion system</h1>
-		<p>Created by Ho Tuan Vu - Japan Advanced Institute of Science and Technology - Sept 4th, 2017</p>		
+		<h1>Emotional vowel singing voice results</h1>
+		<p>Created by Nguyen Thi Hao - Japan Advanced Institute of Science and Technology - Sept 4th, 2017</p>		
 		
 		
-		<h2>Voice Conversion with Speaker Adaptive Layer structure</h2>
+		
 		<table>
 			<tbody><tr>
-				<th>slt voice reconstruct</th>
+				<th></th>
+				<th>
+					Emotional vowel singing voice (F0 contour replacement)
+				</th>
+				<th>
+					Emotional vowel singing voice (spectral sequences replacement)
+				</th>
+				<th>
+					Emotional vowel singing voice (both F0 contour and spectral sequences replacement)
+				</th>
+			</tr>
+			
+			
+			<tr>
+				<th>Neutral</th>
+				<th>
+					<audio controls="">
+						<source src="F0neutral_neutralVowel.wav" type="audio/wav">Y
+						Your browser does not support the audio element.
+					</audio>
+				</th>
+				<th>
+					<audio controls="">
+						<source src="F0neutral_neutralVowel.wav" type="audio/wav">Y
+						Your browser does not support the audio element.
+					</audio>
+				</th>
+				<th>
+					<audio controls="">
+						<source src="F0neutral_neutralVowel.wav" type="audio/wav">Y
+						Your browser does not support the audio element.
+					</audio>
+				</th>
+			</tr>
+			
+			<tr>
+				<th>Happy</th>
+				<th>
+					<audio controls="">
+						<source src="F0happy_neutralVowel.wav" type="audio/wav">Y
+						Your browser does not support the audio element.
+					</audio>
+				</th>
+				<th>
+					<audio controls="">
+						<source src="F0neutral_joyVowel.wav" type="audio/wav">Y
+						Your browser does not support the audio element.
+					</audio>
+				</th>
+				<th>
+					<audio controls="">
+						<source src="F0happy_joyVowel.wav" type="audio/wav">Y
+						Your browser does not support the audio element.
+					</audio>
+				</th>
+			</tr>		
+
+			<tr>
+				<th>Sad</th>
+				<th>
+					<audio controls="">
+						<source src="F0sad_neutralVowel.wav" type="audio/wav">Y
+						Your browser does not support the audio element.
+					</audio>
+				</th>
+				<th>
+					<audio controls="">
+						<source src="F0neutral_sadVowel.wav" type="audio/wav">Y
+						Your browser does not support the audio element.
+					</audio>
+				</th>
+				<th>
+					<audio controls="">
+						<source src="F0sad_sadVowel.wav" type="audio/wav">Y
+						Your browser does not support the audio element.
+					</audio>
+				</th>
+			</tr>
+			
+				<tr>
+				<th>Angry</th>
+				<th>
+					<audio controls="">
+						<source src="F0angry_neutralVowel.wav" type="audio/wav">Y
+						Your browser does not support the audio element.
+					</audio>
+				</th>
+				<th>
+					<audio controls="">
+						<source src="F0neutral_angerVowel.wav" type="audio/wav">Y
+						Your browser does not support the audio element.
+					</audio>
+				</th>
 				<th>
 					<audio controls="">
 						<source src="F0angry_angerVowel.wav" type="audio/wav">Y
@@ -35,92 +127,15 @@
 					</audio>
 				</th>
 			</tr>
-			<tr>
-				<th>bdl voice reconstruct</th>
-				<th>
-					<audio controls="">
-						<source src="arctic_b0410_bdl_rec_SAL.wav" type="audio/wav">
-						Your browser does not support the audio element.
-					</audio>
-				</th>
-			</tr>
-			<tr>
-				<th>bdl voice adapted to slt</th>
-				<th>
-					<audio controls="">
-						<source src="arctic_b0410_bdl2slt_SAL.wav" type="audio/wav">Y
-						Your browser does not support the audio element.
-					</audio>
-				</th>
-			</tr>					
+			
 		</tbody></table>
 		
-		<h2>Using LSF and MCEP feature</h2>
-		<table>
-			<tbody><tr>
-				<th>bdl voice natural</th>
-				<th>
-					<audio controls="">
-						<source src="arctic_b0410_bdl_natural.wav" type="audio/wav">
-						Your browser does not support the audio element.
-					</audio>
-				</th>
-			</tr>
-			<tr>
-				<th>bdl voice reconstruct using MCEP</th>
-				<th>
-					<audio controls="">
-						<source src="arctic_b0410_bdl_mgc.wav" type="audio/wav">
-						Your browser does not support the audio element.
-					</audio>
-				</th>
-			</tr>
-			<tr>
-				<th>bdl voice reconstruct using LSF</th>
-				<th>
-					<audio controls="">
-						<source src="arctic_b0410_bdl_lsf.wav" type="audio/wav">
-						Your browser does not support the audio element.
-					</audio>
-				</th>
-			</tr>					
-		</tbody></table>		
 		
-		<h2> Modulation-constrained training strategy </h2>
-		<table>
-			<tbody><tr>
-				<th>slt voice natural</th>
-				<th>
-					<audio controls="">
-						<source src="arctic_b0410_slt_original.wav" type="audio/wav">Y
-						Your browser does not support the audio element.
-					</audio>
-				</th>
-			</tr>
-			<tr>
-				<th>slt voice without MS-constrained training</th>
-				<th>
-					<audio controls="">
-						<source src="arctic_b0410_slt_noMS.wav" type="audio/wav">Y
-						Your browser does not support the audio element.
-					</audio>
-				</th>
-			</tr>
-			<tr>
-				<th>slt voice with MS-constrained training</th>
-				<th>
-					<audio controls="">
-						<source src="arctic_b0410_slt_MS.wav" type="audio/wav">Y
-						Your browser does not support the audio element.
-					</audio>
-				</th>
-			</tr>					
-		</tbody></table>
 				
 		<footer>
     		<ul>
-        		<li><a href="mailto:tuanvu.ksvt92@gmail.com">email</a></li>
-        		<li><a href="https://github.com/tuanvu92">github.com/tuanvu92</a></li>
+        		<li><a href="mailto:haonguyen147.bn@gmail.com">email</a></li>
+        	
 			</ul>
 		</footer>
 	
